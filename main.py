@@ -11,8 +11,8 @@ have_pet = input("\nDo you have a pet? Y/N: \n\n")
 if 'Y'.lower() == have_pet:
     pet_name: str = input("\nWhat's your pet name?\n\n")
 if 'N'.lower() == have_pet:
-    pet_name: str = input('\nSorry, you don\'t deserve a brand name :-(, but let\'s see what we can get for you, '
-                          'keep going \n\n')
+    pet_name: str = input("\nSorry, you don't deserve a brand name :-(, but let's see what we can get for you, "
+                          "keep going \n\n")
 
 # 5 .Ask the user for the name of their favorite food.
 food_name = input("\nWhat's your favorite food or drink?\n\n")
