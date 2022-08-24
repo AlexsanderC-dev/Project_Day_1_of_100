@@ -1,5 +1,5 @@
 # 1. Greating.
-print("This is your band name generator\n")
+print("This is your brand name generator\n")
 
 # 2. Ask the user for the city that they grew up in.
 grew_up_country = input("What's the name of country you grew up in?\n\n")
@@ -20,4 +20,4 @@ food_name = input("\nWhat's your favorite food or drink?\n\n")
 # 6. Combine the name of their city and pet and show them their band name.
 # noinspection PyUnboundLocalVariable
 band_name = f"{pet_name} {grew_up_country} {food_name}"
-print("\nYour band name could be :\n\n {0}".format(band_name))
+print("\nYour brand name could be :\n\n {0}".format(band_name))
